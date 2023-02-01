@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+#game {
+    width: 400px;
+    height: 220px;
+    border: 5px dotted #fed330;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color: 141212;
+}
+
+h1 {
+    border-bottom: 3px dashed #fed330;
+    padding: 10px;
+    color: #fed330;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #d80e12;
+}
+
+h2 span {
+    color: #fed330;
+}
+
+
+.box {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box span {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #fed330;
+}
+
+#result {
+    width: 60px;
+    height: 20px;
+    margin-right: 15px;
+    border: none;
+    outline-color: #fed330;
+    background-color: white;
+
+}
+
+#check {
+    padding: 5px 10px;
+    background-color: #fed330;
+    font-weight: 900;
+    border-radius: 15px;
+    outline-color: none;
+}
+#check:hover{
+    background-color: #009432;
+    color: white;
+}
+
+#true,
+#false {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    padding-top: 8px;
+    font-size: 22px;
+}
+
+.codder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.codder h2{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#true {
+    background-color: #009432;
+    margin-right: 10px;
+}
+
+#false {
+    background-color: #d80e12;
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width:500px){
+ 
+    
+    #game {
+        width: 250px;
+        height: 340px;
+        border: 5px dotted #fed330;
+        margin: auto;
+        margin-top: 80px;
+        text-align: center;
+        background-color: 141212;
+        position: relative;
+    }
+    
+    h1 {
+        border-bottom: 3px dashed #fed330;
+        padding: 4px;
+        color: #fed330;
+    }
+    
+    h2 {
+        margin-top: 10px;
+        color: #d80e12;
+    }
+    
+    .box {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .box span {
+        font-size: 25px;
+        margin-right: 15px;
+        color: #fed330;
+    }
+    
+    #result {
+        width: 40px;
+        height: 20px;
+        margin-right: 15px;
+        border: none;
+        outline-color: #fed330;
+        background-color: white;
+    
+    }
+    
+    #check {
+        padding: 10px 20px;
+        background-color: #fed330;
+        font-weight: 900;
+        border-radius: 50px;
+        outline-color: none;
+        position: absolute;
+        margin-top: 270px;
+    }
+    #check:hover{
+        background-color: #009432;
+        color: white;
+    }
+    
+    #true,
+    #false {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        color: white;
+        margin-top: 15px;
+        padding-top: 15px;
+        font-size: 18px;
+        border-radius: 50px;
+    }
+    #true {
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+
+    #num1,#num2{
+        font-size: 25px;
+    }
+}
